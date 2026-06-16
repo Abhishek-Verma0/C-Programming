@@ -17,7 +17,7 @@
 
  #include<stdio.h>
 
- void mem_cpy(void* param1,void* param2,int n){
+ void* mem_cpy(void* param1,void* param2,size_t n){
      char *src = param2;
      char *dest = param1;
      for (int i = 0; i < n;i++){
