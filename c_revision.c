@@ -218,11 +218,11 @@ int main(){
     scanf("%s",pt);
     printf("%s",pt);
     //  to overcome whitespace problem we use fgets it takes three params 1st - the string  2nd - size of the string using sizeof 3rd file stream or inout source
-    //  input source for keyboard input is stdin - as fget was designed to read lined from file  but giving stdin we say  take keyvoard console exactly like a open file 
+    //  input source for keyboard input is stdin - as fget was designed to read lines from file  but giving stdin we say  take keyvoard console exactly like a open file 
     printf("\n");
     while(getchar()!='\n');
     char qt[100];
-      printf("Enter   lammu or any string : ");
+      printf("Enter lammu or any string : ");
     fgets(qt,sizeof(qt),stdin);
 
     printf("%s",qt);
